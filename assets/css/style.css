@@ -1,14 +1,16 @@
+/* Resetting default styles for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
 }
 
+/* Styling the body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styling the header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,16 +19,18 @@ body {
     display: flex;
 }
 
+/* Styling the h1 element within the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
-
 }
 
+/* Styling the ".seo" class within the header h1 */
 .header h1 .seo {
-    color: #d9dcd6 
+    color: #d9dcd6;
 }
 
+/* Styling the div elements within the header */
 .header div {
     padding-top: 20px;
     margin-right: 20px;
@@ -35,16 +39,19 @@ body {
     float: right;
 }
 
+/* Styling the ul elements within the header div */
 .header div ul {
     list-style-type: none;
 }
 
+/* Styling the li elements within the header div ul */
 .header div ul li {
     display: inline-block;
     margin-left: 150px;
     font-size: 20px;
 }
 
+/* Styling links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -52,13 +59,14 @@ a {
     text-align: center;
 }
 
+/* Styling paragraphs */
 p {
     font-size: 20px;
     width: 90%;
     margin-left: 20px;
-    
 }
 
+/* Styling the hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -68,22 +76,26 @@ p {
     background-position: center;
 }
 
+/* Floating elements to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floating elements to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styling content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 15px;
 }
 
+/* Styling the benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -95,64 +107,37 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Styling individual benefit sections */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Styling headings within benefit sections */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Styling images within benefit sections */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Styling the search engine optimization section */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 20px;
-    border: 200px;
+    border: 200px; /* Note: Is this value correct? */
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* Styling the online reputation management section */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 15px;
@@ -162,6 +147,7 @@ p {
     color: #ffffff;
 }
 
+/* Styling the social media marketing section */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 25px;
@@ -171,24 +157,28 @@ p {
     color: #ffffff;
 }
 
+/* Styling images within SEO section */
 .search-engine-optimization img {
     max-height: 230px;
     margin-top: 18px;
     margin-left: 18px;
 }
 
+/* Styling images within online reputation management section */
 .online-reputation-management img {
     max-height: 230px;
-    margin-top:  18px;
-    margin-right: 18px
+    margin-top: 18px;
+    margin-right: 18px;
 }
 
+/* Styling images within social media marketing section */
 .social-media-marketing img {
     max-height: 230px;
     margin-top: 10px;
     margin-left: 18px;
 }
 
+/* Styling headings within SEO section */
 .search-engine-optimization h2 {
     margin-bottom: 15px;
     width: 75%;
@@ -196,6 +186,7 @@ p {
     font-size: 36px;
 }
 
+/* Styling headings within online reputation management section */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -204,12 +195,14 @@ p {
     margin-left: 20px;
 }
 
+/* Styling headings within social media marketing section */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
     margin-top: 20px;
 }
 
+/* Styling the footer section */
 .footer {
     padding: 30px;
     clear: both;
@@ -217,6 +210,11 @@ p {
     text-align: center;
 }
 
+/* Styling h2 elements within the footer */
 .footer h2 {
     font-size: 20px;
 }
+
+
+
+
